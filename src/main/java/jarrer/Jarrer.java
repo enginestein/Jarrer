@@ -30,7 +30,7 @@ public class Jarrer {
 		}
 		if (line.hasOption("help") || !line.hasOption("i") || !line.hasOption("o") || !line.hasOption("ex")) {
 			HelpFormatter formatter = new HelpFormatter();
-			formatter.printHelp("ReverseCrypter", options);
+			formatter.printHelp("Jarrer", options);
 			return;
 		}
 		File input = new File(line.getOptionValue("i"));
